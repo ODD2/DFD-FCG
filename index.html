@@ -4,9 +4,9 @@
   <meta charset="utf-8">
   <meta name="description"
         content="Deformable Neural Radiance Fields creates free-viewpoint portraits (nerfies) from casually captured videos.">
-  <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
+  <meta name="keywords" content="DFD-FCG, deepfake, detection">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Nerfies: Deformable Neural Radiance Fields</title>
+  <title>DFD-FCG</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
@@ -42,45 +42,7 @@
 </head>
 <body>
 
-<nav class="navbar" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
-    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
-  </div>
-  <div class="navbar-menu">
-    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
-      <a class="navbar-item" href="https://keunhong.com">
-      <span class="icon">
-          <i class="fas fa-home"></i>
-      </span>
-      </a>
 
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">
-          More Research
-        </a>
-        <div class="navbar-dropdown">
-          <a class="navbar-item" href="https://hypernerf.github.io">
-            HyperNeRF
-          </a>
-          <a class="navbar-item" href="https://nerfies.github.io">
-            Nerfies
-          </a>
-          <a class="navbar-item" href="https://latentfusion.github.io">
-            LatentFusion
-          </a>
-          <a class="navbar-item" href="https://photoshape.github.io">
-            PhotoShape
-          </a>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</nav>
 
 
 <section class="hero">
@@ -88,39 +50,42 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Nerfies: Deformable Neural Radiance Fields</h1>
+          <h1 class="title is-1 publication-title">
+            Towards More General Video-based Deepfake Detection through Facial Feature Guided Adaptation for Foundation Model (DFD-FCG)
+          </h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a href="https://keunhong.com">Keunhong Park</a><sup>1</sup>,</span>
+              <a href="https://keunhong.com">Yue-Hua Han</a><sup>1,3,4</sup>,</span>
             <span class="author-block">
-              <a href="https://utkarshsinha.com">Utkarsh Sinha</a><sup>2</sup>,</span>
+              <a href="https://utkarshsinha.com">Tai-Ming Huang </a><sup>1,3,4</sup>,</span>
             <span class="author-block">
-              <a href="https://jonbarron.info">Jonathan T. Barron</a><sup>2</sup>,
+              <a href="https://jonbarron.info">Kai-Lung Hua</a><sup>2,4</sup>,
             </span>
             <span class="author-block">
-              <a href="http://sofienbouaziz.com">Sofien Bouaziz</a><sup>2</sup>,
-            </span>
-            <span class="author-block">
-              <a href="https://www.danbgoldman.com">Dan B Goldman</a><sup>2</sup>,
-            </span>
-            <span class="author-block">
-              <a href="https://homes.cs.washington.edu/~seitz/">Steven M. Seitz</a><sup>1,2</sup>,
-            </span>
-            <span class="author-block">
-              <a href="http://www.ricardomartinbrualla.com">Ricardo Martin-Brualla</a><sup>2</sup>
+              <a href="http://sofienbouaziz.com">Jun-Cheng Chen</a><sup>1</sup>,
             </span>
           </div>
 
           <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>1</sup>University of Washington,</span>
-            <span class="author-block"><sup>2</sup>Google Research</span>
+            <span class="author-block"><sup>1</sup>Academia Sinica,</span>
+            <span class="author-block"><sup>2</sup>Microsoft,</span>
+            <span class="author-block"><sup>3</sup>National Taiwan University,</span>
+            <span class="author-block"><sup>4</sup>National Taiwan University of Science and Technology</span>
+
+          </div>
+
+          <br>
+          <div class="columns is-centered">
+            <div class="is-size-4 publication-venue">
+                CVPR 2025
+            </div>
           </div>
 
           <div class="column has-text-centered">
             <div class="publication-links">
               <!-- PDF Link. -->
               <span class="link-block">
-                <a href="https://arxiv.org/pdf/2011.12948"
+                <a href="https://cvpr.thecvf.com/Conferences/2025/AcceptedPapers"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
@@ -129,7 +94,7 @@
                 </a>
               </span>
               <span class="link-block">
-                <a href="https://arxiv.org/abs/2011.12948"
+                <a href="https://arxiv.org/abs/2404.05583"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="ai ai-arxiv"></i>
@@ -138,7 +103,7 @@
                 </a>
               </span>
               <!-- Video Link. -->
-              <span class="link-block">
+              <!-- <span class="link-block">
                 <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
@@ -146,10 +111,10 @@
                   </span>
                   <span>Video</span>
                 </a>
-              </span>
+              </span> -->
               <!-- Code Link. -->
               <span class="link-block">
-                <a href="https://github.com/google/nerfies"
+                <a href="https://github.com/ODD2/DFD-FCG"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
@@ -158,14 +123,14 @@
                   </a>
               </span>
               <!-- Dataset Link. -->
-              <span class="link-block">
+              <!-- <span class="link-block">
                 <a href="https://github.com/google/nerfies/releases/tag/0.1"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="far fa-images"></i>
                   </span>
                   <span>Data</span>
-                  </a>
+                  </a> -->
             </div>
 
           </div>
@@ -178,21 +143,19 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <video id="teaser" autoplay muted loop playsinline height="100%">
-        <source src="./static/videos/teaser.mp4"
-                type="video/mp4">
-      </video>
-      <h2 class="subtitle has-text-centered">
-        <span class="dnerf">Nerfies</span> turns selfie videos from your phone into
-        free-viewpoint
-        portraits.
-      </h2>
+      <img class="has-text-centered is-centered" src="./static/images/teaser.png" width="80%">
+      <p class="has-text-centered">
+        <!-- <span class="dnerf">DFD-FCG</span>  -->
+        <b>DFD-FCG</b> incorporates a Facial Component Guided (FCG) spatial module and a temporal module to adapt the foundational CLIP image encoder 
+        for the task of Deepfake detection. This approach enhances model generalizability by guiding it to focus on nuanced artifacts that 
+        appear in specific facial component regions rather than arbitrary areas.
+      </p>
     </div>
   </div>
 </section>
 
 
-<section class="hero is-light is-small">
+<!-- <section class="hero is-light is-small">
   <div class="hero-body">
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel">
@@ -247,7 +210,7 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 
 <section class="section">
@@ -258,99 +221,90 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            We present the first method capable of photorealistically reconstructing a non-rigidly
-            deforming scene using photos/videos captured casually from mobile phones.
+            We present a highly extensible framework that allows for the deployment of 
+            different modules in the decoder block to address various aspects of Deepfake detection.
           </p>
           <p>
-            Our approach augments neural radiance fields
-            (NeRF) by optimizing an
-            additional continuous volumetric deformation field that warps each observed point into a
-            canonical 5D NeRF.
-            We observe that these NeRF-like deformation fields are prone to local minima, and
-            propose a coarse-to-fine optimization method for coordinate-based models that allows for
-            more robust optimization.
-            By adapting principles from geometry processing and physical simulation to NeRF-like
-            models, we propose an elastic regularization of the deformation field that further
-            improves robustness.
+            Generative models have enabled the creation of highly realistic facial-synthetic images, 
+            raising significant concerns due to their potential for misuse. While research in Deepfake detection 
+            has advanced rapidly, many methods still struggle to generalize to unseen Deepfakes generated by novel synthesis techniques.
+            To address this challenge, we propose a novel side-network-based decoder that extracts spatial and temporal cues 
+            based on the CLIP image encoder for generalized video-based Deepfake detection. Additionally, 
+            we introduce the Facial Component Guidance (FCG) to enhance the spatial learning generalizability by encouraging the model to focus on key facial regions. 
+            The cross-dataset evaluation demonstrates the superior performance of our approach, surpassing state-of-the-art methods 
+            on challenging datasets. Extensive experiments further validate the effectiveness of the proposed method in terms of data efficiency, parameter efficiency and model robustness.
           </p>
-          <p>
-            We show that <span class="dnerf">Nerfies</span> can turn casually captured selfie
-            photos/videos into deformable NeRF
-            models that allow for photorealistic renderings of the subject from arbitrary
-            viewpoints, which we dub <i>"nerfies"</i>. We evaluate our method by collecting data
-            using a
-            rig with two mobile phones that take time-synchronized photos, yielding train/validation
-            images of the same pose at different viewpoints. We show that our method faithfully
-            reconstructs non-rigidly deforming scenes and reproduces unseen views with high
-            fidelity.
-          </p>
+          
         </div>
       </div>
     </div>
     <!--/ Abstract. -->
-
-    <!-- Paper video. -->
+  </section>
+  <section class="section">
+    <!-- Methods. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Video</h2>
-        <div class="publication-video">
-          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
-                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <h2 class="title is-3">Methods</h2>
+        <p>
+          Our main idea is utilizing the CLIP image encoder to extract layer-wise features, 
+          which are then processed by the corresponding decoder block consisting of 
+          temporal and spatial modules for parameter-efficient fine-tuning.
+        </p>
+        <div class="publication-method">
+          <img src="./static/images/method.png" width="150%">
         </div>
+        <p>
+          The <b>spatial module</b> incorporates the FCG loss to focus on key facial parts in each frame to capture Deepfake visual cues. 
+          The <b>temporal module</b> employs the Patch-Temporal Multi-Head Self-Attention to capture the temporal inconsistencies of Deepfake videos. 
+          The • at the input of the two modules indicates where the required attributes are extracted based on pre-configured settings. 
+          Ultimately, our framework aggregates the outputs of the spatial and temporal modules for the final prediction.
+        </p>
       </div>
     </div>
-    <!--/ Paper video. -->
+
   </div>
-</section>
-
-
-<section class="section">
   <div class="container is-max-desktop">
-
     <div class="columns is-centered">
-
-      <!-- Visual Effects. -->
+      <!-- Spatial module. -->
       <div class="column">
         <div class="content">
-          <h2 class="title is-3">Visual Effects</h2>
+          <h2 class="title is-3">Spatial module</h2>
           <p>
-            Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect
-            would be impossible without nerfies since it would require going through a wall.
+            The spatial module in our decoder block is designed to capture manipulation cues from the extracted patch features. 
+            We have carefully designed a mining process used to extract layer-wise facial component attributes. 
+            We have also designed an FCG loss used during training, which steers the spatial module's focus towards key facial regions 
+            such as the lips, skin, eyes, and nose.
           </p>
-          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/dollyzoom-stacked.mp4"
-                    type="video/mp4">
-          </video>
         </div>
       </div>
-      <!--/ Visual Effects. -->
-
-      <!-- Matting. -->
+      <!--/ Spatial module. -->
+      <!-- temporal module. -->
       <div class="column">
-        <h2 class="title is-3">Matting</h2>
+        <h2 class="title is-3">Temporal module</h2>
         <div class="columns is-centered">
           <div class="column content">
             <p>
-              As a byproduct of our method, we can also solve the matting problem by ignoring
-              samples that fall outside of a bounding box during rendering.
+              Our temporal module in the decoder blocks focuses on capturing 
+              the temporal inconsistencies in Deepfake samples.
             </p>
-            <video id="matting-video" controls playsinline height="100%">
-              <source src="./static/videos/matting.mp4"
-                      type="video/mp4">
-            </video>
+            <img src="./static/images/TModule.png" width="100%">
           </div>
 
         </div>
       </div>
     </div>
-    <!--/ Matting. -->
+    <!--/ temporal module. -->
+  </div>
+</section>
 
-    <!-- Animation. -->
+
+<!-- <section class="section">
+  <div class="container is-max-desktop">
     <div class="columns is-centered">
       <div class="column is-full-width">
         <h2 class="title is-3">Animation</h2>
 
-        <!-- Interpolating. -->
+        
         <h3 class="title is-4">Interpolating states</h3>
         <div class="content has-text-justified">
           <p>
@@ -382,9 +336,7 @@
           </div>
         </div>
         <br/>
-        <!--/ Interpolating. -->
-
-        <!-- Re-rendering. -->
+        
         <h3 class="title is-4">Re-rendering the input video</h3>
         <div class="content has-text-justified">
           <p>
@@ -403,14 +355,13 @@
                     type="video/mp4">
           </video>
         </div>
-        <!--/ Re-rendering. -->
+        
 
       </div>
     </div>
-    <!--/ Animation. -->
+    
 
 
-    <!-- Concurrent Work. -->
     <div class="columns is-centered">
       <div class="column is-full-width">
         <h2 class="title is-3">Related Links</h2>
@@ -435,20 +386,20 @@
         </div>
       </div>
     </div>
-    <!--/ Concurrent Work. -->
+   
 
   </div>
-</section>
+</section> -->
 
 
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@article{park2021nerfies,
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
+    <pre><code>@inproceedings{cvpr25_dfd_fcg,
+      title={Towards More General Video-based Deepfake Detection through Facial Feature Guided Adaptation for Foundation Model},
+      author={Yue-Hua Han, Tai-Ming Huang, Kai-Lung Hua, Jun-Cheng Chen},
+      booktitle={Proceedings of the Conference on Computer Vision and Pattern Recognition (CVPR)},
+      year={2025}
 }</code></pre>
   </div>
 </section>
@@ -456,15 +407,6 @@
 
 <footer class="footer">
   <div class="container">
-    <div class="content has-text-centered">
-      <a class="icon-link"
-         href="./static/videos/nerfies_paper.pdf">
-        <i class="fas fa-file-pdf"></i>
-      </a>
-      <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
-        <i class="fab fa-github"></i>
-      </a>
-    </div>
     <div class="columns is-centered">
       <div class="column is-8">
         <div class="content">
@@ -474,12 +416,15 @@
             Commons Attribution-ShareAlike 4.0 International License</a>.
           </p>
           <p>
-            This means you are free to borrow the <a
-              href="https://github.com/nerfies/nerfies.github.io">source code</a> of this website,
+            This website is cloned and modified from the <a
+            href="https://github.com/nerfies/nerfies.github.io">source code of Nerfies</a>.
+          </p>
+          <!-- <p>
+            This means you are free to borrow the  of this website,
             we just ask that you link back to this page in the footer.
             Please remember to remove the analytics code included in the header of the website which
             you do not want on your website.
-          </p>
+          </p> -->
         </div>
       </div>
     </div>
